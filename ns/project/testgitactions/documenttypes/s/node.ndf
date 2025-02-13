@@ -13,8 +13,9 @@
         <number name="createdDate" type="Long">1739429667619</number>
         <value name="lastModifiedBy">poan</value>
         <value name="lastModifiedByUserId">c9db734e7ec94260a00d901efc573271</value>
-        <number name="lastModifiedDate" type="Long">1739429667624</number>
+        <number name="lastModifiedDate" type="Long">1739429671291</number>
       </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -22,12 +23,18 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">c8d5ba79ef024f0f9bf8a770e7134b23</value>
+    <value name="schemaDomain">d9862b8e9e464134973bb44c30be095e</value>
     <value name="originURI">books.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_nsName">fld_2041028534_stage00.projects.flae1a4d3d7a92a5372fbfea.documenttypes:docTypeRef_bks_BooksForm</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">bks:books</value>
         <value name="field_type">recref</value>
@@ -38,7 +45,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.testgitactions.documenttypes:docTypeRef_bks_BooksForm</value>
+        <value name="rec_ref">fld_2041028534_stage00.projects.flae1a4d3d7a92a5372fbfea.documenttypes:docTypeRef_bks_BooksForm</value>
       </record>
     </array>
     <value name="modifiable">false</value>
